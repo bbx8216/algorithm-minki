@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stack>
+#include <string>
 using namespace std;
 
 int main(){
@@ -8,10 +9,11 @@ int main(){
 
     cin >> N;
     for (int i = 0; i < N; i++) {
-        int num;
         string cmd;
-        cin >> cmd>> num;
+        cin >> cmd;
         if (cmd == "push"){
+			int num;
+			cin >> num;
             stack.push(num);
         }
         else if (cmd =="pop"){
@@ -30,7 +32,10 @@ int main(){
             cout << res<< "\n";
         }
         else if (cmd == "top"){
-            cout << stack.top()<< "\n";
+			if (stack.empty())
+				cout << -1 <<"\n";
+			else
+	            cout << stack.top()<< "\n";
         }
     }
     return 0;
