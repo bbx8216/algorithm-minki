@@ -22,6 +22,7 @@
 		"__hash_table": "cpp",
 		"__tree": "cpp",
 		"initializer_list": "cpp",
-		"format": "cpp"
+		"format": "cpp",
+		"sstream": "cpp"
 	}
 }
