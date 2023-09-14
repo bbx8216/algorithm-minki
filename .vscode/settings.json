@@ -23,6 +23,12 @@
 		"__tree": "cpp",
 		"initializer_list": "cpp",
 		"format": "cpp",
-		"sstream": "cpp"
+		"sstream": "cpp",
+		"boj21939_문제추천시스템version1": "cpp",
+		"chrono": "cpp",
+		"random": "cpp",
+		"complex": "cpp",
+		"cmath": "cpp",
+		"numbers": "cpp"
 	}
 }
